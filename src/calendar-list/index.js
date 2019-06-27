@@ -239,6 +239,7 @@ class CalendarList extends Component {
         }
         {...this.props}
         style={this.props.calendarStyle}
+        showHeader={this.props.showHeader}
       />
     );
   }
