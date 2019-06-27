@@ -73,7 +73,8 @@ class Calendar extends Component {
       PropTypes.object,
       PropTypes.number,
       PropTypes.array
-    ])
+    ]),
+    showHeader: PropTypes.bool
   };
 
   constructor(props) {
