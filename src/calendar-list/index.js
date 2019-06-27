@@ -360,7 +360,7 @@ class CalendarList extends Component {
           getItemLayout={this.getItemLayout}
           scrollsToTop={this.props.scrollsToTop}
         />
-        {this.props.showHeader ? this.renderStaticHeader() : null}
+        {false ? this.renderStaticHeader() : null}
       </View>
     );
   }
